@@ -64,6 +64,11 @@ html {
   width: 100%;
 }
 
+.main__hero__image:hover {
+  transform: scale(0.8);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
 .main__hero__text {
   width: 100%;
   margin: 0%;
@@ -125,6 +130,7 @@ html {
   margin-top: 0;
 }
 
+
 .sidebar__article__item__text {
   color: hsl(236, 13%, 42%);
   font-size: 1rem;
@@ -154,6 +160,11 @@ html {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
+}
+
+.fondo__article__item:hover {
+  transform: scale(1.10);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .fondo__article__item__text h4 {
